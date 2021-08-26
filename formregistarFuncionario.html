@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Registar Unidade Sanitaria</title>
+
+      <body style="background-color:powderblue;">
+
+ 
+
+
+  </head>
+
+  <body>
+    <table align="center" border="1">
+
+
+
+    
+      <img src="img/Logo.png" id="logo" >
+
+    
+
+
+         <form action="action.php" method="post">
+              <fieldset enable>
+                <legend>Admin Registar Funcionario</legend>
+        
+           
+
+            <label>Nome: </label><input type="text" name="nome"></br></p>
+            <label>Apelido:   </label><input type="text" name="Apelido"></br></p>
+           
+           <p>Sexo:<INPUT type="radio" name="genero" value="masculino" checked id="genero"> Masculino
+              <INPUT type="radio" name="genero" value="feminino"> Femenino</p>
+
+            <label>Data de Nascimento: </label> <input type="date" name="Nascimento">
+
+            <label>Documento: </label>
+            <select name="Documento">
+              <option value="Passaporte">Tipo de Documemntos</option>
+              <option value="BI">Bilhete de Identidade</option>
+              <option value="Talao">Talao</option>
+              <option value="Nuit">Nuit</option>
+              <option value="Cedula">Cedula Pessoal/ Nascimento</option>
+              <option value="Carta de Conducao">Carta de Conducao</option>
+              </select>
+           
+            <label>Numero do Documento: </label><input type="text" name="rua"></br></p>
+           
+          
+            <label>Unidade Sanitaria</label>
+            <select name="nomeus">
+              <option value="Escolha">Escolha a unidade Sanitaria </option>
+              <option value="CS Maxaquene">CS Maxaquene</option>
+              <option value="CS Mavalane">CS Mavalane</option>
+              <option value="CS Porto">CS Porto</option>
+              <option value="HCM">HCM</option>
+              </select></br></p>
+
+
+              <label>Profissao</label>
+            <select name="Profissao">
+              <option value="Conselheiro">Conselheiro</option>
+              <option value="Enfermeiro">Enfermeiro</option>
+              <option value="Medico">Medico</option>
+              </select>
+          		<input type="text" name="profissao" value="Introduz a Profissao caso nao haja"></br></p>
+
+
+
+            <label>Numero de Telefone (+258): </label><input type="text" name="telefone">
+            
+
+            <label>Email:</label><input type="email" name="email"</input></p>
+        
+            <label>Usuario:</label><input type="text" name="usuario">
+            <label>Password:</label><input type="text" name="password">
+            <label>Confirmar Password:</label><input type="text" name="password"></br></p>
+            <label>Status do Usuario:</label><select name="status">
+              <option value="Activo">Activo</option>
+              <option value="Inactivo">Inactivo</option>
+              </select></br>
+
+            <input type="submit" name="" value="Registar">
+            
+            
+
+   </form>
+
+  </body>
+</html>

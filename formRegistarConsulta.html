@@ -1,0 +1,63 @@
+
+	<!DOCTYPE html>
+<html>
+  <head>
+       <meta charset="UTF-8">
+        <title>SysUats Consulta</title>
+        <link rel="stylesheet" href="estilo.css">
+    
+        <body style="background-color:powderblue;">
+ 
+  </head>
+  <body>
+    <img src="img/Logo.png" id="logo" >
+    <p align="right">
+      <label>User Name:</label>
+      <input type="button" value="Sair" />
+      </p>
+
+
+      
+ 
+      <fieldset enable>
+        <legend>Consulta Pacientes</legend>
+        <div>
+     
+
+      <form action="action.php" method="post">
+         <p>Dia da Consulta: <input type="date" name="datas" size="25" /></p>
+         <p>Nome Paciente / Nid: <input type="text" name="Paciente" /></p>
+        
+           
+           <p>Telefone: <input type="text" size="25" name="telefone"></p>
+           <p>Telefone Alternativo: <input type="text" size="25" name="telefone1"></p>
+   
+                 
+           <p>Morada: <input type="type" name="morada" /></p>
+          
+             <div class="formResultado">
+          
+             <label>Resultado da Consulta HIV:<select id="Resultado" name="Resultado" class="formResultado"></label>
+                    <option value="" selected="selected"></option>
+                    <option value="1">HIV Negativo</option>
+                    <option value="1">HIV Positivo</option>
+                    <option value="0">HIV Retestagem Negativo</option>
+                    <option value="0">HIV Retestagem Positivo</option>
+             </select>
+             
+              
+      </table>
+      <label>Referir Para:</label>
+      <input type="text" name="Referir"></br>
+      <p>Data da Proxima Consulta: <input type="date" name="datas" size="25" /></p>
+                 
+          
+            <p class="submit">
+                <input type="submit" value="Gravar">
+            </p>
+          
+        
+      </fieldset>
+</form>
+</body>
+</html>

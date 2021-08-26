@@ -1,0 +1,142 @@
+
+	<!DOCTYPE html>
+<html>
+  <head>
+    <title>SysUats Medico</title>
+    
+    <body style="background-color:powderblue;">
+      <style>
+
+#logo {
+    float: left;
+    width: 220px;
+    height: 220px;
+    cursor: pointer;
+    cursor: hand;
+    background-repeat: no-repeat;
+    margin-top:-150;
+}
+#superior {
+    float: left;
+    width: 900px;
+    height: 60px;
+}
+#inferior {
+    float: left;
+    width: 900px;
+    height: 60px;
+
+}
+div {
+          width: 200px;
+          height: 200px;
+          border-width: 2px;
+          border-color: black;
+          border-style: solid;
+          display: inline-block;
+          margin-top:150px;
+          
+          
+        }
+        #caixa1 {
+          border-radius: 20px;
+        }
+        #caixa2 {
+          border-radius: 20px;
+        }
+        #caixa3 {
+          border-radius: 20px;
+        }
+        
+        
+    table.center {
+  margin-left: auto; 
+  margin-right: auto;
+    }       
+     #embaixo{
+          float: down;
+        }
+
+        tr{
+          line-height:30px;
+        }
+
+        tr#titulo{
+          font-weight:bold;
+          background-color: rgba(0, 0, 0, 0.6);
+
+        }
+        td{
+          padding: 0px 10px;
+        }
+        a{
+
+          background-color: white;
+          color: black;
+          padding: 10px;
+          margin: 0px, 10px;
+          text-decoration:none;
+        }
+}
+
+</style>
+  </head>
+  <body>
+    <img src="img/Logo.png" id="logo" >
+    <p align="right">
+      <label>User Name:</label>
+      <input type="button" value="Sair" />
+      </p>
+
+
+      
+      <center>
+      <div id="caixa1"><p><img src="img/Consultas.png"><u>Consultas</u></p></div>
+      <div id="caixa2"><p><img src="img/Pacientes.png"><u>Pacientes</u></p></div>
+      <div id="caixa3"><p><img src="img/Relatorios.png"><u>Relatorios</u></p></div>
+      </center></p></br>
+      </br>
+      </br>
+
+
+      <section id="embaixo">
+          
+          <table></table>
+            <fieldset enable>
+             <legend>Lista de Pacientes</legend>
+
+            <input type="submit" name="Novo Paciente" value="Novo Paciente">
+
+
+            <table class="center">
+
+              <colgroup span="4"></colgroup>
+
+              <tr id="titulo">
+
+              <th>Nome do Paciente</th>
+
+              <th >Ano Nascimento</th>
+
+              <th>Genero</th>
+              <th>Resultado HIV</th>
+
+              </tr>
+
+              <tr>
+
+              <td></td>
+
+              <td></td>
+
+              <td></td>
+              <td></td>
+
+               <td><a href="">Editar</a><a href="">Excluir</a></td>
+              </tr>
+
+              </table>
+      </section>
+      
+  </body>
+</html>
